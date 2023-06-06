@@ -1,0 +1,14 @@
+pipeline {
+    agent any
+    stages {
+        stage('run') {
+            steps {
+                echo "Clarusway_Way to Reinvent Yourself with ismail"
+                sh 'echo using shell within Jenkinsfile'
+                echo 'not using shell in the Jenkinsfile'
+            }
+        }
+    }
+}
+
+
